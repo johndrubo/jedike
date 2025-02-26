@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>John Drubo Karmoker CV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  
+  <style>
+    body {
+      scroll-behavior: smooth;
+      background: #f8f9fa;
+    }
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    .section-title {
+      border-bottom: 3px solid #e74c3c;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+      color: #2c3e50;
+      position: relative;
+    }
+    .section-title::after {
+      content: '';
+      position: absolute;
+      width: 50px;
+      height: 3px;
+      background: #e74c3c;
+      left: 0;
+      bottom: -3px;
+    }
+    .header-section {
+      padding: 3rem 0;
+      text-align: center;
+      background: url('https://raw.githubusercontent.com/johndrubo/jedike/jdk.jpg') 
+                  no-repeat center center;
+      background-size: cover;
+      color: #fff;
+      margin-bottom: 2rem;
+      position: relative;
+    }
+    .header-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.6);
+    }
+    .header-content {
+      position: relative;
+      z-index: 2;
+    }
+    .header-section h1 {
+      font-size: 2.75rem;
+      margin-bottom: 0.5rem;
+    }
+    .header-section p {
+      font-size: 1.1rem;
+    }
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border: 5px solid #fff;
+      margin-bottom: 1rem;
+    }
+    .content-section {
+      padding: 2rem 0;
+    }
+    .footer {
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 2rem;
+      background: #ffffff;
+      box-shadow: 0 0 15px rgba(0,0,0,0.05);
+    }
+    .nav-link {
+      cursor: pointer;
+    }
+    /* Add icons style to section titles */
+    .section-title i {
+      margin-right: 10px;
+      color: #e74c3c;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#">John Drubo Karmoker</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCV" aria-controls="navbarCV" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCV">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#leadership">Leadership</a></li>
+          <li class="nav-item"><a class="nav-link" href="#competition">Competitions</a></li>
+          <li class="nav-item"><a class="nav-link" href="#debate">Debate</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header class="header-section">
+    <div class="header-overlay"></div>
+    <div class="container header-content">
+      <img src="<img src="https://raw.githubusercontent.com/johndrubo/jedike/main/jdk.jpg" 
+     alt="Profile Picture" class="rounded-circle profile-img">
+">
+      <h1>John Drubo Karmoker</h1>
+      <p>40/B Dilu Road, New Eskaton, Dhaka-1216, Bangladesh</p>
+      <p>
+        <a href="mailto:johndrubo@gmail.com" class="text-white"><i class="bi bi-envelope-fill"></i> johndrubo@gmail.com</a> |
+        <a href="tel:+8801610678229" class="text-white"><i class="bi bi-telephone-fill"></i> +8801610678229</a>
+      </p>
+      <p>
+        <a href="https://github.com/johndrubo" target="_blank" class="text-white"><i class="bi bi-github"></i> GitHub</a> |
+        <a href="https://icpc.global/ICPCID/1GCPSUBBBQE4" target="_blank" class="text-white"><i class="bi bi-award-fill"></i> ICPC ID</a> |
+        <a href="https://www.linkedin.com/in/jedike/" target="_blank" class="text-white"><i class="bi bi-linkedin"></i> LinkedIn</a>
+      </p>
+    </div>
+  </header>
+
+  <!-- Profile Section -->
+  <section id="profile" class="content-section">
+    <div class="container">
+      <h2 class="section-title"><i class="bi bi-person-lines-fill"></i>Profile Summary</h2>
+      <p class="lead">
+        A natural problem solver, leader, and innovator with a strong foundation in computer science and a background in public speaking and debate. Excels at developing creative, efficient solutions for complex challenges with proven experience in IT management, competitive programming, and event coordination. Passionate about technology, leadership, and community development.
+      </p>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="content-section bg-light">
+    <div class="container">
+      <h2 class="section-title"><i class="bi bi-mortarboard-fill"></i>Education</h2>
+      <p>
+        <strong>Canadian University of Bangladesh</strong> – Dhaka, Bangladesh<br>
+        B.Sc. in Computer Science and Engineering<br>
+        <span class="text-muted">CGPA: 3.75/4 | Expected Graduation: 2025</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="content-section">
+    <div class="container">
+      <h2 class="section-title"><i class="bi bi-briefcase-fill"></i>Professional Experience</h2>
+      
+      <div class="mb-4">
+        <h4>Voluntary Association for Rural Development of Bangladesh (VARD of Bangladesh) – Dhaka, Bangladesh</h4>
+        <p><strong>IT Manager & Youth Self-help Coordinator (Part-Time)</strong> | May 2021 – Present</p>
+        <ul>
+          <li>Led youth development programs focused on financial independence and skill-building, impacting over 200 youths and their families.</li>
+          <li>Managed IT resources, provided technical support, and oversaw system setups to ensure efficient operations.</li>
+        </ul>
+      </div>
+      
+      <div class="mb-4">
+        <p><strong>Youth Coordinator & Tech Administrator (Part-Time)</strong> | May 2018 – May 2021</p>
+        <ul>
+          <li>Implemented tech-based solutions to support youth programs, enhancing resource accessibility during and after the pandemic.</li>
+          <li>Raised awareness about health and hygiene while assisting in relief efforts for underprivileged communities.</li>
+        </ul>
+      </div>
+      
+      <div class="mb-4">
+        <p><strong>Translator & Junior Tech Administrator (Part-Time)</strong> | May 2016 – May 2018</p>
+        <ul>
+          <li>Supported rural development projects by translating documents and assisting with technology setups.</li>
+          <li>Enhanced community engagement by increasing tech availability and providing navigation support.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leadership Section -->
+  <section id="leadership" class="content-section bg-light">
+    <div class="container">
+      <h2 class="section-title"><i class="bi bi-people-fill"></i>Leadership & Activities</h2>
+      
+      <div class="mb-4">
+        <h4>Banglalink Applink – Dhaka, Bangladesh</h4>
+        <p><strong>Campus Ambassador</strong> | June 2022 – June 2023</p>
+        <ul>
+          <li>Engaged the campus community in Banglalink initiatives by working with native APIs and USSD modules to develop apps.</li>
+          <li>Acted as a liaison between Banglalink and the student body, organizing events and promoting innovative projects.</li>
+        </ul>
+      </div>
+      
+      <div class="mb-4">
+        <h4>CUB Computer Society – Dhaka, Bangladesh</h4>
+        <p><strong>President</strong> | December 2023 – Present</p>
+        <ul>
+          <li>Spearheaded the Computer Society by organizing competitions, seminars, boot camps, and training sessions.</li>
+          <li>Coordinated intervarsity events and competitions with over 200 participants, ensuring smooth planning and execution.</li>
+        </ul>
+        <p><strong>Joint Secretary</strong> | March 2023 – December 2023</p>
+        <ul>
+          <li>Facilitated interdepartmental events and supported overall club operations to foster a collaborative environment.</li>
+        </ul>
+        <p><strong>Competitive Programming Lead</strong> | July 2022 – March 2023</p>
+        <ul>
+          <li>Led the competitive programming division by reviewing contest problems and organizing practice sessions, boosting participant engagement.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Competition Experience Section -->
+  <section id="competition" class="content-section">
+    <div class="container">
+      <h2 class="section-title"><i class="bi bi-trophy-fill"></i>Competition Experience</h2>
+      <ul>
+        <li><strong>ICPC 2023:</strong> Participated in a national competition against over 1,800 teams.</li>
+        <li><strong>ICPC 2024:</strong> Coached a team that ranked in the top 150 during preliminaries and achieved 99th place in the main contest.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Debate Experience Section -->
+  <section id="debate" class="content-section bg-light">
+    <div class="container">
+      <h2 class="section-title"><i class="bi bi-chat-left-dots-fill"></i>Debate Experience</h2>
+      <ul>
+        <li>Served as an adjudicator and judge in multiple finals and semi-finals at national and international debate tournaments.</li>
+        <li>Active in English debate circuits since 2022, judging at various prestigious debate competitions at different universities.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Skills & Interests Section -->
+  <section id="skills" class="content-section">
+    <div class="container">
+      <h2 class="section-title"><i class="bi bi-gear-fill"></i>Skills & Interests</h2>
+      <p><strong>Programming Languages:</strong> C, C++, Python, Java</p>
+      <p><strong>Frameworks & Libraries:</strong> OpenCV, NumPy, Scikit-learn, Pandas, TensorFlow, Keras</p>
+      <p><strong>Methodologies:</strong> Agile, Scrum SDLC</p>
+      <p><strong>Interests:</strong> Competitive programming, AI & machine learning, community development, public speaking, debate</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">© John Drubo Karmoker</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Smooth Scroll Script -->
+  <script>
+    document.querySelectorAll('a.nav-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').substring(1);
+        const targetSection = document.getElementById(targetId);
+        if(targetSection) {
+          targetSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
